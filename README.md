@@ -1,4 +1,4 @@
-# extralingo-com
+# Extralingo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-extralingo-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://extralingo.com/
+Extralingo connects language learners with schools worldwide, offering comparisons, reviews, and guaranteed low prices. The platform helps students find the best language school abroad, providing detailed information, student feedback, and tools to book courses efficiently. It aims to simplify the search and enrollment process for language education overseas.
+
+**Areas:** Education · LanguageLearning · Travel · Comparison · Reviews
+
+## Extralingo on APIs.io
+
+Everything profiled for Extralingo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/extralingo-com/](https://apis.io/providers/extralingo-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Extralingo Bookings API](https://apis.io/apis/extralingo-com/extralingo-com-bookings-api/) — Unpaid booking submit after email verification
+- [Extralingo Destinations API](https://apis.io/apis/extralingo-com/extralingo-com-destinations-api/) — Search cities, countries and languages
+- [Extralingo Meta API](https://apis.io/apis/extralingo-com/extralingo-com-meta-api/) — Service metadata
+- [Extralingo Schools API](https://apis.io/apis/extralingo-com/extralingo-com-schools-api/) — Search and compare language schools
+- [Extralingo Trips API](https://apis.io/apis/extralingo-com/extralingo-com-trips-api/) — Saved trip configurations (not bookings)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Extralingo Com Agentic Access](https://apis.io/agentic-access/extralingo-com/extralingo-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [SchoolSearchRequest](https://apis.io/schemas/extralingo-com/extralingo-com-school-search-request/)
+- [SchoolSearchResponse](https://apis.io/schemas/extralingo-com/extralingo-com-school-search-response/)
+- [TripEmailedResponse](https://apis.io/schemas/extralingo-com/extralingo-com-trip-emailed-response/)
+- [TripSavedResponse](https://apis.io/schemas/extralingo-com/extralingo-com-trip-saved-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Extralingo Com Context](https://apis.io/jsonld/extralingo-com/extralingo-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Extralingo API Rules](https://apis.io/rules/extralingo-com/extralingo-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Extralingo Com Authentication](https://apis.io/security/extralingo-com/extralingo-com-authentication/)
+- [Extralingo Com Domain Security](https://apis.io/security/extralingo-com/extralingo-com-domain-security/)
+- [Extralingo Com Vulnerability Disclosure](https://apis.io/security/extralingo-com/extralingo-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.extralingo.com/en)
+- [Documentation](https://www.extralingo.com/en/developers)
+- [Blog](https://www.extralingo.com/en/blog)
+- [Terms of service](https://www.extralingo.com/en/terms-and-conditions)
+- [Privacy policy](https://www.extralingo.com/en/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 47.8** — developing · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 59.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 65.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/extralingo-com/](https://apis.io/providers/extralingo-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Extralingo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/extralingo-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
